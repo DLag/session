@@ -1,6 +1,6 @@
 package session
 
-import "golang.org/x/net/context"
+import "context"
 
 type sessionContextKey struct {}
 

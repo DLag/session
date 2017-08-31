@@ -87,7 +87,7 @@ func (m *Manager) Get(session, key string) (interface{}, error) {
 		return nil, err
 	}
 
-	res, _ := values[key]
+	res := values[key]
 	return res, nil
 }
 
